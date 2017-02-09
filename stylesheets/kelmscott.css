@@ -31,7 +31,7 @@ h1.main-title {
 
 .banner {
 	background-color: black;
-/*	text-align: center;*/
+	/*	text-align: center;*/
 	padding: 10px 0;
 }
 
@@ -57,7 +57,7 @@ h1.main-title {
 }
 
 .banner div.logo img {
-/*	border: 1px solid #333;*/
+	/*	border: 1px solid #333;*/
 }
 
 .address p {
@@ -65,8 +65,7 @@ h1.main-title {
 	font-weight: 300;
 	display: inline-block;
 	margin: 0;
-
-	padding: 5px 30px 5px 0;
+	padding: 5px 10px 5px 0;
 }
 
 .address {
@@ -90,4 +89,30 @@ h1 + p {
 
 .venue a {
 	font-size: 1.75rem;
+}
+
+
+@media only screen 
+and (max-device-width: 480px) {
+
+	.content {
+		margin: 0 10px;
+		width: 100%;
+	}
+	  
+	.banner div.logo {
+		margin: 0 10px;
+		width: 100%;
+	}
+		  
+	.banner div.logo img {
+		width: 100%;	  
+		height: auto;
+	}
+	  
+	.address p {
+		font-size: 2.0rem;
+	}
+
+
 }
