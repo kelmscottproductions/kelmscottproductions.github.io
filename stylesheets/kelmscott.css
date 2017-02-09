@@ -22,7 +22,7 @@ p {
 
 .content {
 	margin: auto;
-	width: 50%;
+	width: 90%;
 }
 
 h1.main-title {
@@ -38,7 +38,7 @@ h1.main-title {
 
 .banner div.logo {
 	margin: auto;
-	width: 50%;
+	width: 90%;
 }
 
 .venue p:last-child {
@@ -91,6 +91,9 @@ h1 + p {
 	font-size: 1.75rem;
 }
 
+.arts-council {
+	margin-top: 40px;
+}
 
 @media only screen 
 and (max-device-width: 480px) {
