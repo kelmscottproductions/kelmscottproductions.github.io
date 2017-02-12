@@ -107,6 +107,21 @@ h1 + p {
 	margin-top: 40px;
 }
 
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.details p {
+  display: inline-box;
+  margin-right: 5px;
+}
+
+.twitter {
+  height: 36px;
+  width: 45px;
+}
+
 @media only screen 
 and (max-device-width: 480px) {
 
