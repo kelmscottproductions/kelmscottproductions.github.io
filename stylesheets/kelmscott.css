@@ -48,12 +48,12 @@ h1.main-title {
 
 .bridge {
 	font-weight: 300;
-	margin-top: 40px;
+	margin-top: 20px;
 	font-size: 1.25rem;
 }
 
 .announce {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .banner div.logo img {
@@ -83,6 +83,7 @@ p.bio {
 }
 
 h1 {
+  margin-top: 10px;
 	margin-bottom: 0;
 }
 
@@ -96,7 +97,7 @@ h1 + p {
 .venue {
 	font-weight: 700;
 	font-size: 1.5rem;
-	padding: 10px 0;
+	padding: 5px 0;
 }
 
 .venue a {
@@ -104,7 +105,9 @@ h1 + p {
 }
 
 .arts-council {
-	margin-top: 40px;
+	border-top: 1px dotted black;
+	margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .details {
